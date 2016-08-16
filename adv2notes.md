@@ -50,4 +50,4 @@ I do some unusual things with my modifier keys. First of all, I've always (long 
 
 However, trying to remap them can give surprising results. Specifically, you may find that when you thought you mapped a key to ctrl, you actually mapped it to cmd, or vice-versa (I haven't documented exactly what happens, mostly I was happy to finally get it right).
 
-I believe this just has to do with the default layout that's active in remapping mode. It's actually the windows or PC modifier key layout, and you have to transpose. Someday I may have the patience to actually stop and think about what's happening.
+I believe this just has to do with the default layout that's active in remapping mode. It's actually the windows or PC modifier key layout, and you have to transpose. Someday I may have the patience to actually stop and think about what's happening. I recall having the same difficulty when I got my Advantage Pro.
