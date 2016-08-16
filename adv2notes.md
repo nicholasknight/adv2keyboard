@@ -3,8 +3,9 @@ I received my Advantage 2 today. There's no full manual yet, even though keyboar
 # The on-board drive.
 To get at the on-board drive, you need to enter power user mode, and then "mount" the drive.
 
-Power user mode: Program+Shift+Esc (lights will flash a couple times)
-Mount drive: Program+Shift+F1
+Power user mode: `Program+Shift+Esc` (lights will flash a couple times)
+
+Mount drive: `Program+Shift+F1`
 
 This presents a 2MB FAT12 (!) filesystem, so pretty much any OS that supports USB drives will be read/write capable on it.
 
@@ -12,7 +13,7 @@ At least on a Mac, if you try to safely eject the drive, it will, curiously, rem
 
 # Layouts
 
-Keyboard layouts are stored in the folder called "active". You'll find "dvorak.txt" and "qwerty.txt". You can create additional layouts by naming them "X_dvorak.txt" or "X_qwerty.txt" where "X" is any number or letter. You then switch between the layouts with Program+X. So, if you create a "2_dvorak.txt", you can switch to it with Program+2. To switch to the "base" layout (that is, dvorak.txt or qwerty.txt), you just hit Program+F3 (qwerty) or Program+F4 (dvorak), just like you were switching to that mode to begin with.
+Keyboard layouts are stored in the folder called "active". You'll find "dvorak.txt" and "qwerty.txt". You can create additional layouts by naming them `X_dvorak.txt` or `X_qwerty.txt` where "X" is any number or letter. You then switch between the layouts with `Program+X`. So, if you create a "2_dvorak.txt", you can switch to it with `Program+2`. To switch to the "base" layout (that is, dvorak.txt or qwerty.txt), you just hit `Program+F3` (qwerty) or `Program+F4` (dvorak), just like you were switching to that mode to begin with.
 
 NOTE: You have to hit the original, *physical* key corresponding to the letter or number. So if you name a file "g_dvorak.txt", You have to hit the original QWERTY "g" key -- Dvorak "i", even if you're already in dvorak mode. Probably less confusing to just stick to numbers.
 
