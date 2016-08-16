@@ -46,7 +46,7 @@ version.txt displays the model name and firmware version. I'm guessing this is e
 
 # Quirk with remapping Mac modifier keys.
 
-I do some unusual things with my modifier keys. First of all, I've always (long before I used an Advantage) remapped capslock to ctrl. I'm also not a fan of the default Mac modifier key layout on Advantage keyboards. So, I remap them (the "\|"/"insert" key (bottom left ring finger key) becomes an alt/option, then going left-to-right on the thumb modifiers, I do alt/option, cmd, ctrl, cmd).
+I do some unusual things with my modifier keys. First of all, I've always (long before I used an Advantage) remapped capslock to ctrl. I'm also not a fan of the default Mac modifier key layout on Advantage keyboards. So, I remap them (the `"\|"/"insert"` key (bottom left ring finger key) becomes an alt/option, then going left-to-right on the thumb modifiers, I do alt/option, cmd, ctrl, cmd).
 
 However, trying to remap them can give surprising results. Specifically, you may find that when you thought you mapped a key to ctrl, you actually mapped it to cmd, or vice-versa (I haven't documented exactly what happens, mostly I was happy to finally get it right).
 
