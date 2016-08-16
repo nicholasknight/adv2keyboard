@@ -16,6 +16,26 @@ Keyboard layouts are stored in the folder called "active". You'll find "dvorak.t
 
 NOTE: You have to hit the original, *physical* key corresponding to the letter or number. So if you name a file "g_dvorak.txt", You have to hit the original QWERTY "g" key -- Dvorak "i", even if you're already in dvorak mode. Probably less confusing to just stick to numbers.
 
+The "language" of the layout files is simple yet arcane. It's [physicalkey]>[logicalkey]. The only trouble is that we don't have a complete list of available key names.
+
+Below is a sample of what I have in my dvorak layout thus far, mostly created through the on-board remapping mechanism, though `[scroll]>[f14]` was a manual edit (that worked!).
+
+```
+[caps]>[rctrl]
+[scroll]>[f14]
+[intl-\]>[lalt]
+[kp=]>[kp=mac]
+[hyphen]>[\]
+[lalt]>[rwin]
+[lctrl]>[lalt]
+[kp-lctrl]>[kp-lwin]
+[rctrl]>[rwin]
+[kp-rctrl]>[kp-rwin]
+[\]>[hyphen]
+[rwin]>[rctrl]
+[kp-rwin]>[kp-rctrl]
+```
+
 # Other files
 
 state.txt appears to contain various settings, HOWEVER, I have not yet been able to get manual changes to this file to take effect, even by unplugging the keyboard and plugging it back in, so it appears that it may be effectively read-only.
