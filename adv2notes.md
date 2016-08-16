@@ -1,4 +1,4 @@
-I received my Advantage 2 today. There's no full manual yet, even though keyboards are apparently arriving. The quick start guide leaves out the "power user mode", and there are some other quirks.
+I received my Advantage 2 today. There's no full manual yet, even though keyboards are apparently arriving (hint, hint, Kinesis). The quick start guide leaves out the "power user mode", and there are some other quirks.
 
 # The on-board drive.
 To get at the on-board drive, you need to enter power user mode, and then "mount" the drive.
