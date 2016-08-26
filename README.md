@@ -1,10 +1,12 @@
-I received my Advantage 2 today. There's no full manual yet, even though keyboards are apparently arriving (hint, hint, Kinesis). The quick start guide leaves out the "power user mode", and there are some other quirks.
+# Intro
 
-Update: A manual has been posted at http://www.kinesis-ergo.com/advantage2-resources/
+I received my [Kinesis Advantage 2](http://www.kinesis-ergo.com/shop/advantage2-silver/) on August 16, 2106. One of the key reasons I upgraded, aside from escaping the quirks of the previous quarter-century-old architecture, was to be able to maintain layouts as plaintext files on the internal drive.
 
-It includes a dictionary for the key maps, but I know it leaves at least one possible key undocumented: it does not list `f14`, but I have successfully mapped my scrollock to `f14` regardless.
+Unfortunately, at the time I received the keyboard, the official manual had yet to be posted, and the quickstart guide didn't explain any of the "power user" features!
 
-It also mentions a firmware version (1.0.18) that doesn't seem to be available yet, with a new feature (status report playback speed).
+So, I began assembling some notes based on a combination of experiments and things Kinesis posted to social media. This is the result.
+
+[The manual has since been posted](http://www.kinesis-ergo.com/advantage2-resources/), but a few things remain undocumented, and it leaves something to be desired if you're just after a quick reference. So, this document remains, and I'll probably expand and improve it over time.
 
 # The on-board drive.
 To get at the on-board drive, you need to enter power user mode, and then "mount" the drive.
