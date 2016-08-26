@@ -43,6 +43,20 @@ Below is a sample of what I have in my dvorak layout thus far, mostly created th
 [kp-rwin]>[kp-rctrl]
 ```
 
+## Raw HID Codes
+
+Turns out, [you can specify decimal HID keycodes in the layout files](https://twitter.com/kinesisergo/status/768891441594503168)!
+
+I'm not sure of the exact rules, but I've been able to do, for example:
+
+```
+[A]>[047]
+```
+
+And "A" then types `[`. An initial attempt to just use `[47]` failed, I suspect it either must be at least 3 digits or zero-prefixed.
+
+A list of specified USB HID codes is available in [a PDF on usb.org](http://www.usb.org/developers/hidpage/Hut1_12v2.pdf). Chapter 10, starting on page 53.
+
 # Other files
 
 `state.txt` appears to contain various settings, HOWEVER, I have not yet been able to get manual changes to this file to take effect, even by unplugging the keyboard and plugging it back in, so it appears that it may be effectively read-only.
