@@ -25,7 +25,7 @@ Keyboard layouts are stored in the folder called "active". You'll find "dvorak.t
 
 NOTE: You have to hit the original, *physical* key corresponding to the letter or number. So if you name a file `g_dvorak.txt`, You have to hit the original QWERTY "g" key -- Dvorak "i", even if you're already in dvorak mode. Probably less confusing to just stick to numbers.
 
-The "language" of the layout files is simple yet arcane. It's `[physicalkey]>[logicalkey]`. The manual provides a list of tokens in the appendix (chapter 13, page 32 of the current version). There appear to be some "hidden" tokens (notably `f14`, which I've been using since I got the keyboard, is not listed). Additional tokens are also apparently coming in future firmware updates.
+The "language" of the layout files is simple yet arcane. It's `[physicalkey]>[logicalkey]`. The manual provides a list of tokens in the appendix (chapter 13, page 32 of the current version). There appear to be some "hidden" tokens (notably `f14`, which I've been using since I got the keyboard, is not listed). Additional tokens [are also apparently coming](https://twitter.com/kinesisergo/status/768860116258951168) in future firmware updates.
 
 Below is a sample of what I have in my dvorak layout thus far, mostly created through the on-board remapping mechanism, though `[scroll]>[f14]` was a manual edit (that worked!).
 
